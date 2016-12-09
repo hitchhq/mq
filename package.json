@@ -1,0 +1,17 @@
+{
+  "name": "@hitch/mq",
+  "version": "0.0.1",
+  "description": "Abstraction layer to work with AMQP message queue systems.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/mq-topic.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3",
+    "sinon": "1.17.1",
+    "when": "3.7.3"
+  }
+}
