@@ -10,6 +10,7 @@ const { TopicMQ } = require('@hitch/mq');
 // Check http://www.squaremobius.net/amqp.node/channel_api.html to see all options.
 const mq = new TopicMQ({
   exchange: 'exchange name',
+  subscribe: true, // Whether to subscribe or not. Defaults to true.
   queue_options: { exclusive: true },
   consumer_options: { noAck: true },
   topic: 'v1.user.signup',
