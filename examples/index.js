@@ -6,6 +6,7 @@ const mq = new TopicMQ({
   queue_options: { exclusive: true },
   consumer_options: { noAck: true },
   topic: 'v1.user.signup',
+  queue: 'test',
   username: process.env.USERNAME,
   password: process.env.PASSWORD,
   host: process.env.HOST || 'localhost',
