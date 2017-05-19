@@ -1,6 +1,6 @@
 {
   "name": "@hitch/mq",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Abstraction layer to work with AMQP message queue systems.",
   "main": "lib/index.js",
   "scripts": {
